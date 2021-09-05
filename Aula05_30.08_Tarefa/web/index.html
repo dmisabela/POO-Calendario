@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calendário</title>
+        <link rel='shortcut icon' href='https://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Google-Calendar-icon.png'/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">                 
+                    <h3>CALENDÁRIO</h3>
+                    <br> 
+                    <br>                     
+                    <form action ="calendario.jsp">  
+                        <label>Digite o ano</label>
+                        <input type="number" name="ano" value="2021" required/>
+                        <br>
+                        <br>
+                        <label>Digite o mês</label>
+                        <input type="number" name="mes" value="9" required/>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit" class="btn">
+                        <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Calendar-icon.png" title="Gerar"/>
+                        </button>           
+                    </form>                    
+                    <h4>Isabela Duarte Moreno</h4>
+                </div>   
+            </div>  
+    </body>
+    
+</html>
+
+<style>
+ 
+.container {
+width: 100vw;
+height: 100vh;
+background: #6A5ACD;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.box {
+width: 300px;
+height: 300px;
+background: #F8F8FF;
+text-align: center;
+position: relative;
+z-index: 5;
+}
+.btn img {
+width: 30px;
+height: 30px;
+}
+body {
+margin: 0px;
+font-family: arial;
+}
+</style>
